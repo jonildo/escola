@@ -1,5 +1,4 @@
 from django.db import models
-
 class Base(models.Model):
     data_criacao = models.DateTimeField(auto_now_add=True,
                                         db_column='t_____criacao',
